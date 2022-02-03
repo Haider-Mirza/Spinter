@@ -1,0 +1,11 @@
+#+TITLE: =Spinter=
+#+AUTHOR: Haider Mirza
+* Table of contents :toc:
+- [[#how-to-compile][How to Compile]]
+
+* How to Compile
+  Run the command "make all" to compile the game and place the excecutable in the ./build directory.
+  
+  If you use the GNU Guix package manager, you can run the command "guix shell -m manifest.scm" to create a seperate programming environment.
+  You can read more about this feature in the Guix Manual: [[https://guix.gnu.org/en/manual/devel/en/guix.html#Invoking-guix-shell][Guix Shell]] 
+  
