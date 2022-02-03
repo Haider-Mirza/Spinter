@@ -4,8 +4,17 @@
 - [[#how-to-compile][How to Compile]]
 
 * How to Compile
-  Run the command "make all" to compile the game and place the excecutable in the ./build directory.
+
+If you use the GNU Guix package manager, you can run the command "guix shell -m manifest.scm" to create a seperate programming environment.
+You can read more about this feature in the Guix Manual: [[https://guix.gnu.org/en/manual/devel/en/guix.html#Invoking-guix-shell][Guix Shell]] 
+Otherwise you can install all the dependencies manually; These can be found in the manifest.scm file.
   
-  If you use the GNU Guix package manager, you can run the command "guix shell -m manifest.scm" to create a seperate programming environment.
-  You can read more about this feature in the Guix Manual: [[https://guix.gnu.org/en/manual/devel/en/guix.html#Invoking-guix-shell][Guix Shell]] 
+Run these bash scripts to compile the program:
+#+BEGIN_SRC fundamental
+./configure
+./build
+#+END_SRC
+
+Then to run the program run the bash script *./run*
+  
   
