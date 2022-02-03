@@ -1,3 +1,5 @@
-#include<iostream>
+#include <iostream>
 
-int main () {}
+int main() {
+  std::cout << "Testing CMake" << std::endl;
+}
