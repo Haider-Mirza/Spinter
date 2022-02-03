@@ -92,6 +92,8 @@ Spinter_EXTERNAL_OBJECTS =
 
 Spinter: CMakeFiles/Spinter.dir/src/main.cpp.o
 Spinter: CMakeFiles/Spinter.dir/build.make
+Spinter: /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/lib/libglfw.so.3.3
+Spinter: /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/lib/libGL.so
 Spinter: CMakeFiles/Spinter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haider/Code/Spinter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Spinter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Spinter.dir/link.txt --verbose=$(VERBOSE)

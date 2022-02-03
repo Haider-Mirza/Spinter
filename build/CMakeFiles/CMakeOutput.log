@@ -437,3 +437,101 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make -f Makefile cmTC_4de2f/fast && /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make  -f CMakeFiles/cmTC_4de2f.dir/build.make CMakeFiles/cmTC_4de2f.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4de2f.dir/CheckIncludeFile.c.o
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc    -o CMakeFiles/cmTC_4de2f.dir/CheckIncludeFile.c.o -c /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4de2f
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4de2f.dir/link.txt --verbose=1
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc CMakeFiles/cmTC_4de2f.dir/CheckIncludeFile.c.o -o cmTC_4de2f 
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make -f Makefile cmTC_cfdaa/fast && /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make  -f CMakeFiles/cmTC_cfdaa.dir/build.make CMakeFiles/cmTC_cfdaa.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfdaa.dir/CheckFunctionExists.c.o
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_cfdaa.dir/CheckFunctionExists.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cfdaa
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfdaa.dir/link.txt --verbose=1
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_cfdaa.dir/CheckFunctionExists.c.o -o cmTC_cfdaa  -lpthread 
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function XOpenDisplay exists in the /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/lib/libX11.so;/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/lib/libXext.so passed with the following output:
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make -f Makefile cmTC_d4be1/fast && /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make  -f CMakeFiles/cmTC_d4be1.dir/build.make CMakeFiles/cmTC_d4be1.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4be1.dir/CheckFunctionExists.c.o
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_d4be1.dir/CheckFunctionExists.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d4be1
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4be1.dir/link.txt --verbose=1
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_d4be1.dir/CheckFunctionExists.c.o -o cmTC_d4be1  /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/lib/libX11.so /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/lib/libXext.so 
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make -f Makefile cmTC_c81c0/fast && /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make  -f CMakeFiles/cmTC_c81c0.dir/build.make CMakeFiles/cmTC_c81c0.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c81c0.dir/CheckFunctionExists.c.o
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_c81c0.dir/CheckFunctionExists.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c81c0
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c81c0.dir/link.txt --verbose=1
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_c81c0.dir/CheckFunctionExists.c.o -o cmTC_c81c0 
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make -f Makefile cmTC_db693/fast && /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make  -f CMakeFiles/cmTC_db693.dir/build.make CMakeFiles/cmTC_db693.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db693.dir/CheckFunctionExists.c.o
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_db693.dir/CheckFunctionExists.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db693
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db693.dir/link.txt --verbose=1
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_db693.dir/CheckFunctionExists.c.o -o cmTC_db693 
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make -f Makefile cmTC_ed8dd/fast && /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make  -f CMakeFiles/cmTC_ed8dd.dir/build.make CMakeFiles/cmTC_ed8dd.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed8dd.dir/CheckFunctionExists.c.o
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_ed8dd.dir/CheckFunctionExists.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed8dd
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed8dd.dir/link.txt --verbose=1
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_ed8dd.dir/CheckFunctionExists.c.o -o cmTC_ed8dd 
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make -f Makefile cmTC_2f5c1/fast && /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/make  -f CMakeFiles/cmTC_2f5c1.dir/build.make CMakeFiles/cmTC_2f5c1.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f5c1.dir/CheckFunctionExists.c.o
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_2f5c1.dir/CheckFunctionExists.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2f5c1
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f5c1.dir/link.txt --verbose=1
+/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_2f5c1.dir/CheckFunctionExists.c.o -o cmTC_2f5c1 
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+
+
+
