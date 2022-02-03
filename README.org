@@ -1,20 +1,37 @@
 #+TITLE: =Spinter=
 #+AUTHOR: Haider Mirza
 * Table of contents :toc:
+- [[#dependencies][Dependencies]]
+- [[#note][NOTE]]
 - [[#how-to-compile][How to Compile]]
+- [[#how-to-run][How to Run]]
 
-* How to Compile
-
+* Dependencies
 If you use the GNU Guix package manager, you can run the command "guix shell -m manifest.scm" to create a seperate programming environment.
 You can read more about this feature in the Guix Manual: [[https://guix.gnu.org/en/manual/devel/en/guix.html#Invoking-guix-shell][Guix Shell]] 
 Otherwise you can install all the dependencies manually; These can be found in the manifest.scm file.
-  
-Run these bash scripts to compile the program:
+* NOTE
+ Make sure you have permission to run the bash scripts:
 #+BEGIN_SRC fundamental
-./configure
-./build
+  ./configure
+  ./run
+  ./build
 #+END_SRC
 
-Then to run the program run the bash script *./run*
+To allow you to run the scripts run the command:
+#+BEGIN_SRC fundamental
+  chmod +x ./configure ./run ./build
+#+END_SRC
+* How to Compile
+Run these bash scripts to compile the program:
+#+BEGIN_SRC fundamental
+  ./configure
+  ./build
+#+END_SRC
+* How to Run
+Then to run the program run:
+#+BEGIN_SRC fundamental
+  ./run
+#+END_SRC
   
   
