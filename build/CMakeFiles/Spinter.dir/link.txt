@@ -1,1 +1,0 @@
-/gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/bin/c++ CMakeFiles/Spinter.dir/src/main.cpp.o -o Spinter  /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/lib/libglfw.so.3.3 /gnu/store/flf33m21rsh0s03rrqry0yvywzckb8av-profile/lib/libGL.so 

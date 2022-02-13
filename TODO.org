@@ -1,0 +1,8 @@
+#+TITLE: =TODO=
+#+AUTHOR: Haider M
+#+DATE: [2022-02-13 Sun]
+:PROPERTIES:
+#+OPTIONS:
+:END:
+* TODO [#A] Get GLAD working
+

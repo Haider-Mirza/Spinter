@@ -57,10 +57,10 @@ RM = /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/haider/Code/Spinter
+CMAKE_SOURCE_DIR = /home/haider/testing/c++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/haider/Code/Spinter/build
+CMAKE_BINARY_DIR = /home/haider/testing/c++/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/Code/Spinter/build/CMakeFiles /home/haider/Code/Spinter/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/testing/c++/build/CMakeFiles /home/haider/testing/c++/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/Code/Spinter/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/testing/c++/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Spinter
+# Target rules for targets named c++
 
 # Build rule for target.
-Spinter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Spinter
-.PHONY : Spinter
+c++: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c++
+.PHONY : c++
 
 # fast build rule for target.
-Spinter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spinter.dir/build.make CMakeFiles/Spinter.dir/build
-.PHONY : Spinter/fast
+c++/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/build
+.PHONY : c++/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spinter.dir/build.make CMakeFiles/Spinter.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spinter.dir/build.make CMakeFiles/Spinter.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spinter.dir/build.make CMakeFiles/Spinter.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Spinter"
+	@echo "... c++"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
