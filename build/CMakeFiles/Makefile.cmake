@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.21.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.4/CMakeSystem.cmake"
+  "../lib/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -46,9 +47,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/c++.dir/DependInfo.cmake"
+  "CMakeFiles/Spinter.dir/DependInfo.cmake"
+  "lib/CMakeFiles/glad.dir/DependInfo.cmake"
   )

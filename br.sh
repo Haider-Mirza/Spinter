@@ -5,4 +5,4 @@ echo "---- Building ----"
 make
 echo -e "\n"
 echo "---- Running ----"
-./c++
+./Spinter

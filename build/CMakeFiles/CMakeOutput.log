@@ -1,6 +1,6 @@
 The system is: Linux - 5.15.19-gnu - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc 
+Compiler: /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/haider/testing/c++/build/CMakeFiles/3.21.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/haider/Code/Spinter/build/CMakeFiles/3.21.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++ 
+Compiler: /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++ 
 Build flags: 
 Id flags:  
 
@@ -23,24 +23,24 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/haider/testing/c++/build/CMakeFiles/3.21.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/haider/Code/Spinter/build/CMakeFiles/3.21.4/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/haider/testing/c++/build/CMakeFiles/CMakeTmp
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/make -f Makefile cmTC_95c62/fast && /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/make  -f CMakeFiles/cmTC_95c62.dir/build.make CMakeFiles/cmTC_95c62.dir/build
-make[1]: Entering directory '/home/haider/testing/c++/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o
-/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc   -v -o CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/make -f Makefile cmTC_b2876/fast && /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/make  -f CMakeFiles/cmTC_b2876.dir/build.make CMakeFiles/cmTC_b2876.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o
+/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc   -v -o CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCCompilerABI.c
 Using built-in specs.
-COLLECT_GCC=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc
+COLLECT_GCC=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc
 Target: x86_64-unknown-linux-gnu
 Configured with: 
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95c62.dir/'
- /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/cc1 -quiet -v /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_95c62.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccf1Dg1R.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2876.dir/'
+ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/cc1 -quiet -v /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b2876.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccLpLMZT.s
 GNU C17 (GCC) version 11.2.0 (x86_64-unknown-linux-gnu)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
 
@@ -49,7 +49,7 @@ ignoring nonexistent directory "/no-gcc-local-prefix/include"
 ignoring nonexistent directory "/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../../../../../x86_64-unknown-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include
+ /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include
  /home/haider/.guix-profile/include
  /run/current-system/profile/include
  /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include
@@ -61,17 +61,17 @@ GNU C17 (GCC) version 11.2.0 (x86_64-unknown-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 9e57dfda43f43f4a80b6f030bf2ec805
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95c62.dir/'
- as -v --64 -o CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o /tmp/ccf1Dg1R.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2876.dir/'
+ as -v --64 -o CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o /tmp/ccLpLMZT.s
 GNU assembler version 2.37 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
-LIBRARY_PATH=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_95c62
-/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95c62.dir/link.txt --verbose=1
-/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc  -v CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o -o cmTC_95c62 
+LIBRARY_PATH=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_b2876
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2876.dir/link.txt --verbose=1
+/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc  -v -rdynamic CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o -o cmTC_b2876 
 Using built-in specs.
-COLLECT_GCC=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc
+COLLECT_GCC=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc
 COLLECT_LTO_WRAPPER=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper
 Target: x86_64-unknown-linux-gnu
 Configured with: 
@@ -79,50 +79,50 @@ Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
-LIBRARY_PATH=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95c62' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95c62.'
- /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2 -plugin /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckDMsdh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 -o cmTC_95c62 /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o -L/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib -L/home/haider/.guix-profile/lib -L/run/current-system/profile/lib -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0 -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../.. -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib -lgcc_s -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95c62' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95c62.'
-make[1]: Leaving directory '/home/haider/testing/c++/build/CMakeFiles/CMakeTmp'
+LIBRARY_PATH=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b2876' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b2876.'
+ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2 -plugin /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDHpB09.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 -o cmTC_b2876 /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o -L/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib -L/home/haider/.guix-profile/lib -L/run/current-system/profile/lib -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0 -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../.. -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib -lgcc_s -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b2876' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b2876.'
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
 
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include]
+    add: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include]
     add: [/home/haider/.guix-profile/include]
     add: [/run/current-system/profile/include]
     add: [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include]
     add: [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed]
     add: [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include]
   end of search list found
-  collapse include dir [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include] ==> [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include]
+  collapse include dir [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include] ==> [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include]
   collapse include dir [/home/haider/.guix-profile/include] ==> [/home/haider/.guix-profile/include]
   collapse include dir [/run/current-system/profile/include] ==> [/run/current-system/profile/include]
   collapse include dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include] ==> [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include]
   collapse include dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed] ==> [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed]
   collapse include dir [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include] ==> [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include]
-  implicit include dirs: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include;/home/haider/.guix-profile/include;/run/current-system/profile/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include]
+  implicit include dirs: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include;/home/haider/.guix-profile/include;/run/current-system/profile/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/haider/testing/c++/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/make -f Makefile cmTC_95c62/fast && /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/make  -f CMakeFiles/cmTC_95c62.dir/build.make CMakeFiles/cmTC_95c62.dir/build]
-  ignore line: [make[1]: Entering directory '/home/haider/testing/c++/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc   -v -o CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/make -f Makefile cmTC_b2876/fast && /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/make  -f CMakeFiles/cmTC_b2876.dir/build.make CMakeFiles/cmTC_b2876.dir/build]
+  ignore line: [make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc   -v -o CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc]
+  ignore line: [COLLECT_GCC=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Configured with: ]
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95c62.dir/']
-  ignore line: [ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/cc1 -quiet -v /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_95c62.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccf1Dg1R.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2876.dir/']
+  ignore line: [ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/cc1 -quiet -v /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b2876.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccLpLMZT.s]
   ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-unknown-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
   ignore line: []
@@ -131,7 +131,7 @@ Parsed C implicit link information from above output:
   ignore line: [ignoring nonexistent directory "/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../../../../../x86_64-unknown-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include]
+  ignore line: [ /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include]
   ignore line: [ /home/haider/.guix-profile/include]
   ignore line: [ /run/current-system/profile/include]
   ignore line: [ /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include]
@@ -143,17 +143,17 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 9e57dfda43f43f4a80b6f030bf2ec805]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95c62.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o /tmp/ccf1Dg1R.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2876.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o /tmp/ccLpLMZT.s]
   ignore line: [GNU assembler version 2.37 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_95c62]
-  ignore line: [/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95c62.dir/link.txt --verbose=1]
-  ignore line: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc  -v CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o -o cmTC_95c62 ]
+  ignore line: [LIBRARY_PATH=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_b2876]
+  ignore line: [/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2876.dir/link.txt --verbose=1]
+  ignore line: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc  -v -rdynamic CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o -o cmTC_b2876 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/gcc]
+  ignore line: [COLLECT_GCC=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Configured with: ]
@@ -161,14 +161,14 @@ Parsed C implicit link information from above output:
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_95c62' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_95c62.']
-  link line: [ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2 -plugin /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckDMsdh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 -o cmTC_95c62 /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o -L/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib -L/home/haider/.guix-profile/lib -L/run/current-system/profile/lib -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0 -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../.. -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib -lgcc_s -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o]
+  ignore line: [LIBRARY_PATH=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b2876' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b2876.']
+  link line: [ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2 -plugin /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDHpB09.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 -o cmTC_b2876 /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o -L/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib -L/home/haider/.guix-profile/lib -L/run/current-system/profile/lib -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0 -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../.. -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib -lgcc_s -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o]
     arg [/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cckDMsdh.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDHpB09.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
@@ -178,20 +178,21 @@ Parsed C implicit link information from above output:
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_95c62] ==> ignore
-    arg [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o] ==> obj [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o]
-    arg [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o] ==> obj [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o]
+    arg [cmTC_b2876] ==> ignore
+    arg [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o] ==> obj [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o]
+    arg [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o] ==> obj [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o]
     arg [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o] ==> obj [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o]
-    arg [-L/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib] ==> dir [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib]
+    arg [-L/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib] ==> dir [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib]
     arg [-L/home/haider/.guix-profile/lib] ==> dir [/home/haider/.guix-profile/lib]
     arg [-L/run/current-system/profile/lib] ==> dir [/run/current-system/profile/lib]
     arg [-L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0] ==> dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0]
     arg [-L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../..] ==> dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../..]
     arg [-L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib] ==> dir [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
-    arg [CMakeFiles/cmTC_95c62.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b2876.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -208,8 +209,8 @@ Parsed C implicit link information from above output:
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--pop-state] ==> ignore
     arg [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o] ==> obj [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o]
-    arg [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o] ==> obj [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o]
-  collapse library dir [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib] ==> [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib]
+    arg [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o] ==> obj [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o]
+  collapse library dir [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib] ==> [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib]
   collapse library dir [/home/haider/.guix-profile/lib] ==> [/home/haider/.guix-profile/lib]
   collapse library dir [/run/current-system/profile/lib] ==> [/run/current-system/profile/lib]
   collapse library dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0] ==> [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0]
@@ -217,27 +218,27 @@ Parsed C implicit link information from above output:
   collapse library dir [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib] ==> [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
   collapse library dir [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib] ==> [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
   implicit libs: [gcc;gcc_s;gcc_s;c;gcc;gcc_s]
-  implicit objs: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o;/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o;/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o]
-  implicit dirs: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib;/home/haider/.guix-profile/lib;/run/current-system/profile/lib;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
+  implicit objs: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o;/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o;/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o]
+  implicit dirs: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib;/home/haider/.guix-profile/lib;/run/current-system/profile/lib;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
   implicit fwks: []
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/haider/testing/c++/build/CMakeFiles/CMakeTmp
+Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/make -f Makefile cmTC_54fb4/fast && /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/make  -f CMakeFiles/cmTC_54fb4.dir/build.make CMakeFiles/cmTC_54fb4.dir/build
-make[1]: Entering directory '/home/haider/testing/c++/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o
-/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++   -v -o CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/make -f Makefile cmTC_a7df8/fast && /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/make  -f CMakeFiles/cmTC_a7df8.dir/build.make CMakeFiles/cmTC_a7df8.dir/build
+make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o
+/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++   -v -o CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
-COLLECT_GCC=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++
+COLLECT_GCC=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++
 Target: x86_64-unknown-linux-gnu
 Configured with: 
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_54fb4.dir/'
- /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_54fb4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccukC4h1.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7df8.dir/'
+ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a7df8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccbTMdVo.s
 GNU C++17 (GCC) version 11.2.0 (x86_64-unknown-linux-gnu)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
 
@@ -248,8 +249,8 @@ ignoring nonexistent directory "/no-gcc-local-prefix/include"
 ignoring nonexistent directory "/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../../../../../x86_64-unknown-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include/c++
- /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include
+ /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include/c++
+ /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include
  /home/haider/.guix-profile/include
  /run/current-system/profile/include/c++
  /run/current-system/profile/include
@@ -264,17 +265,17 @@ GNU C++17 (GCC) version 11.2.0 (x86_64-unknown-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 16c91d666be3426b953fb89a1919cd8b
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_54fb4.dir/'
- as -v --64 -o CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccukC4h1.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7df8.dir/'
+ as -v --64 -o CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbTMdVo.s
 GNU assembler version 2.37 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
-LIBRARY_PATH=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_54fb4
-/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54fb4.dir/link.txt --verbose=1
-/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++  -v CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_54fb4 
+LIBRARY_PATH=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_a7df8
+/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7df8.dir/link.txt --verbose=1
+/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++  -v -rdynamic CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a7df8 
 Using built-in specs.
-COLLECT_GCC=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++
+COLLECT_GCC=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++
 COLLECT_LTO_WRAPPER=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper
 Target: x86_64-unknown-linux-gnu
 Configured with: 
@@ -282,19 +283,19 @@ Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/
-LIBRARY_PATH=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54fb4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_54fb4.'
- /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2 -plugin /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx2z9VX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 -o cmTC_54fb4 /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o -L/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib -L/home/haider/.guix-profile/lib -L/run/current-system/profile/lib -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0 -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../.. -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib -lgcc_s -lc -lgcc_s -lgcc /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54fb4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_54fb4.'
-make[1]: Leaving directory '/home/haider/testing/c++/build/CMakeFiles/CMakeTmp'
+LIBRARY_PATH=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a7df8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7df8.'
+ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2 -plugin /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLTcAjR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 -o cmTC_a7df8 /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o -L/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib -L/home/haider/.guix-profile/lib -L/run/current-system/profile/lib -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0 -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../.. -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib -lgcc_s -lc -lgcc_s -lgcc /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a7df8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7df8.'
+make[1]: Leaving directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp'
 
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include/c++]
-    add: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include]
+    add: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include/c++]
+    add: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include]
     add: [/home/haider/.guix-profile/include]
     add: [/run/current-system/profile/include/c++]
     add: [/run/current-system/profile/include]
@@ -304,8 +305,8 @@ Parsed CXX implicit include dir info from above output: rv=done
     add: [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed]
     add: [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include]
   end of search list found
-  collapse include dir [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include/c++] ==> [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include/c++]
-  collapse include dir [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include] ==> [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include]
+  collapse include dir [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include/c++] ==> [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include/c++]
+  collapse include dir [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include] ==> [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include]
   collapse include dir [/home/haider/.guix-profile/include] ==> [/home/haider/.guix-profile/include]
   collapse include dir [/run/current-system/profile/include/c++] ==> [/run/current-system/profile/include/c++]
   collapse include dir [/run/current-system/profile/include] ==> [/run/current-system/profile/include]
@@ -314,26 +315,26 @@ Parsed CXX implicit include dir info from above output: rv=done
   collapse include dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include] ==> [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include]
   collapse include dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed] ==> [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed]
   collapse include dir [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include] ==> [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include]
-  implicit include dirs: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include/c++;/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include;/home/haider/.guix-profile/include;/run/current-system/profile/include/c++;/run/current-system/profile/include;/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/include/c++/x86_64-unknown-linux-gnu;/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/include/c++/backward;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include]
+  implicit include dirs: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include/c++;/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include;/home/haider/.guix-profile/include;/run/current-system/profile/include/c++;/run/current-system/profile/include;/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/include/c++/x86_64-unknown-linux-gnu;/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/include/c++/backward;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/haider/testing/c++/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/make -f Makefile cmTC_54fb4/fast && /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/make  -f CMakeFiles/cmTC_54fb4.dir/build.make CMakeFiles/cmTC_54fb4.dir/build]
-  ignore line: [make[1]: Entering directory '/home/haider/testing/c++/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++   -v -o CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/make -f Makefile cmTC_a7df8/fast && /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/make  -f CMakeFiles/cmTC_a7df8.dir/build.make CMakeFiles/cmTC_a7df8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/haider/Code/Spinter/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++   -v -o CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o -c /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++]
+  ignore line: [COLLECT_GCC=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Configured with: ]
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_54fb4.dir/']
-  ignore line: [ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_54fb4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccukC4h1.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7df8.dir/']
+  ignore line: [ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/cc1plus -quiet -v -D_GNU_SOURCE /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a7df8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccbTMdVo.s]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-unknown-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
   ignore line: []
@@ -344,8 +345,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [ignoring nonexistent directory "/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../../../../../x86_64-unknown-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include/c++]
-  ignore line: [ /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/include]
+  ignore line: [ /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include/c++]
+  ignore line: [ /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include]
   ignore line: [ /home/haider/.guix-profile/include]
   ignore line: [ /run/current-system/profile/include/c++]
   ignore line: [ /run/current-system/profile/include]
@@ -360,17 +361,17 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 16c91d666be3426b953fb89a1919cd8b]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_54fb4.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccukC4h1.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7df8.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbTMdVo.s]
   ignore line: [GNU assembler version 2.37 (x86_64-unknown-linux-gnu) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_54fb4]
-  ignore line: [/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54fb4.dir/link.txt --verbose=1]
-  ignore line: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++  -v CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_54fb4 ]
+  ignore line: [LIBRARY_PATH=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_a7df8]
+  ignore line: [/gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7df8.dir/link.txt --verbose=1]
+  ignore line: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++  -v -rdynamic CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a7df8 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++]
+  ignore line: [COLLECT_GCC=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Configured with: ]
@@ -378,14 +379,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_54fb4' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_54fb4.']
-  link line: [ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2 -plugin /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx2z9VX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 -o cmTC_54fb4 /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o -L/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib -L/home/haider/.guix-profile/lib -L/run/current-system/profile/lib -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0 -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../.. -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib -lgcc_s -lc -lgcc_s -lgcc /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o /gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o]
+  ignore line: [LIBRARY_PATH=/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/:/home/haider/.guix-profile/lib/:/run/current-system/profile/lib/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/:/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../../:/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a7df8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a7df8.']
+  link line: [ /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2 -plugin /gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccLTcAjR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2 -o cmTC_a7df8 /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o -L/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib -L/home/haider/.guix-profile/lib -L/run/current-system/profile/lib -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0 -L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../.. -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib -rpath=/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib -lgcc_s -lc -lgcc_s -lgcc /gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o]
     arg [/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/gnu/store/rhwx78cp1s8nbi93b6p5xpdfd7rpq969-gcc-11.2.0/libexec/gcc/x86_64-unknown-linux-gnu/11.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccx2z9VX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccLTcAjR.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
@@ -395,20 +396,21 @@ Parsed CXX implicit link information from above output:
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_54fb4] ==> ignore
-    arg [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o] ==> obj [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o]
-    arg [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o] ==> obj [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o]
+    arg [cmTC_a7df8] ==> ignore
+    arg [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o] ==> obj [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o]
+    arg [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o] ==> obj [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o]
     arg [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o] ==> obj [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o]
-    arg [-L/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib] ==> dir [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib]
+    arg [-L/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib] ==> dir [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib]
     arg [-L/home/haider/.guix-profile/lib] ==> dir [/home/haider/.guix-profile/lib]
     arg [-L/run/current-system/profile/lib] ==> dir [/run/current-system/profile/lib]
     arg [-L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0] ==> dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0]
     arg [-L/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../..] ==> dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/../../..]
     arg [-L/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib] ==> dir [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
-    arg [CMakeFiles/cmTC_54fb4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a7df8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -421,8 +423,8 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
     arg [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o] ==> obj [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o]
-    arg [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o] ==> obj [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o]
-  collapse library dir [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib] ==> [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib]
+    arg [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o] ==> obj [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o]
+  collapse library dir [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib] ==> [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib]
   collapse library dir [/home/haider/.guix-profile/lib] ==> [/home/haider/.guix-profile/lib]
   collapse library dir [/run/current-system/profile/lib] ==> [/run/current-system/profile/lib]
   collapse library dir [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0] ==> [/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0]
@@ -430,8 +432,8 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib] ==> [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
   collapse library dir [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib] ==> [/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;gcc_s;c;gcc_s;gcc]
-  implicit objs: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crt1.o;/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crti.o;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o;/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib/crtn.o]
-  implicit dirs: [/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/lib;/home/haider/.guix-profile/lib;/run/current-system/profile/lib;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
+  implicit objs: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crt1.o;/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crti.o;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtbegin.o;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/crtend.o;/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/crtn.o]
+  implicit dirs: [/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib;/home/haider/.guix-profile/lib;/run/current-system/profile/lib;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib]
   implicit fwks: []
 
 

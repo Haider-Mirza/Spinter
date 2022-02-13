@@ -54,51 +54,94 @@ RM = /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/haider/testing/c++
+CMAKE_SOURCE_DIR = /home/haider/Code/Spinter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/haider/testing/c++/build
+CMAKE_BINARY_DIR = /home/haider/Code/Spinter/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/c++.dir/all
+all: CMakeFiles/Spinter.dir/all
+all: lib/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: lib/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/c++.dir/clean
+clean: CMakeFiles/Spinter.dir/clean
+clean: lib/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/c++.dir
+# Directory level rules for directory lib
+
+# Recursive "all" directory target.
+lib/all: lib/CMakeFiles/glad.dir/all
+.PHONY : lib/all
+
+# Recursive "preinstall" directory target.
+lib/preinstall:
+.PHONY : lib/preinstall
+
+# Recursive "clean" directory target.
+lib/clean: lib/CMakeFiles/glad.dir/clean
+.PHONY : lib/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Spinter.dir
 
 # All Build rule for target.
-CMakeFiles/c++.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haider/testing/c++/build/CMakeFiles --progress-num=1,2 "Built target c++"
-.PHONY : CMakeFiles/c++.dir/all
+CMakeFiles/Spinter.dir/all: lib/CMakeFiles/glad.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spinter.dir/build.make CMakeFiles/Spinter.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spinter.dir/build.make CMakeFiles/Spinter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haider/Code/Spinter/build/CMakeFiles --progress-num=1,2 "Built target Spinter"
+.PHONY : CMakeFiles/Spinter.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/c++.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/testing/c++/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/c++.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/testing/c++/build/CMakeFiles 0
-.PHONY : CMakeFiles/c++.dir/rule
+CMakeFiles/Spinter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/Code/Spinter/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Spinter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/Code/Spinter/build/CMakeFiles 0
+.PHONY : CMakeFiles/Spinter.dir/rule
 
 # Convenience name for target.
-c++: CMakeFiles/c++.dir/rule
-.PHONY : c++
+Spinter: CMakeFiles/Spinter.dir/rule
+.PHONY : Spinter
 
 # clean rule for target.
-CMakeFiles/c++.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c++.dir/build.make CMakeFiles/c++.dir/clean
-.PHONY : CMakeFiles/c++.dir/clean
+CMakeFiles/Spinter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spinter.dir/build.make CMakeFiles/Spinter.dir/clean
+.PHONY : CMakeFiles/Spinter.dir/clean
+
+#=============================================================================
+# Target rules for target lib/CMakeFiles/glad.dir
+
+# All Build rule for target.
+lib/CMakeFiles/glad.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/glad.dir/build.make lib/CMakeFiles/glad.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/glad.dir/build.make lib/CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/haider/Code/Spinter/build/CMakeFiles --progress-num=3,4 "Built target glad"
+.PHONY : lib/CMakeFiles/glad.dir/all
+
+# Build rule for subdir invocation for target.
+lib/CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/Code/Spinter/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/CMakeFiles/glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/haider/Code/Spinter/build/CMakeFiles 0
+.PHONY : lib/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: lib/CMakeFiles/glad.dir/rule
+.PHONY : glad
+
+# clean rule for target.
+lib/CMakeFiles/glad.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/glad.dir/build.make lib/CMakeFiles/glad.dir/clean
+.PHONY : lib/CMakeFiles/glad.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

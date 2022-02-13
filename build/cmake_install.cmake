@@ -1,4 +1,4 @@
-# Install script for directory: /home/haider/testing/c++
+# Install script for directory: /home/haider/Code/Spinter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/objdump")
+  set(CMAKE_OBJDUMP "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/objdump")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for each subdirectory.
+  include("/home/haider/Code/Spinter/build/lib/cmake_install.cmake")
+
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/haider/testing/c++/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/haider/Code/Spinter/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

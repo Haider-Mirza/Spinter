@@ -1,0 +1,2 @@
+/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/ar qc libglad.a CMakeFiles/glad.dir/glad/src/glad.c.o
+/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/ranlib libglad.a

@@ -1,0 +1,1 @@
+/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++ -rdynamic CMakeFiles/Spinter.dir/src/main.cpp.o -o Spinter  /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/libglfw.so.3.3 /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/libGL.so lib/libglad.a -ldl 

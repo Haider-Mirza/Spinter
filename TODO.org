@@ -4,5 +4,8 @@
 :PROPERTIES:
 #+OPTIONS:
 :END:
-* TODO [#A] Get GLAD working
+* Things TODO
+* Completed TODOs
+** COMPLETED [#A] Get GLAD working
+CLOSED: [2022-02-13 Sun 19:02]
 

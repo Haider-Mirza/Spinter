@@ -1,3 +1,6 @@
-/home/haider/testing/c++/build/CMakeFiles/rebuild_cache.dir
-/home/haider/testing/c++/build/CMakeFiles/edit_cache.dir
-/home/haider/testing/c++/build/CMakeFiles/c++.dir
+/home/haider/Code/Spinter/build/CMakeFiles/rebuild_cache.dir
+/home/haider/Code/Spinter/build/CMakeFiles/edit_cache.dir
+/home/haider/Code/Spinter/build/CMakeFiles/Spinter.dir
+/home/haider/Code/Spinter/build/lib/CMakeFiles/rebuild_cache.dir
+/home/haider/Code/Spinter/build/lib/CMakeFiles/edit_cache.dir
+/home/haider/Code/Spinter/build/lib/CMakeFiles/glad.dir

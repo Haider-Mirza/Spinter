@@ -1,1 +1,0 @@
-/gnu/store/a5la3bc57fxhasral8qiw839prz1qm0s-profile/bin/c++ CMakeFiles/c++.dir/src/main.cpp.o -o c++  -Wl,-rpath,/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/libglfw.so.3.3 /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/libGL.so 
