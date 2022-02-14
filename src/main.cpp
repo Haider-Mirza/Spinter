@@ -17,7 +17,7 @@ int main()
   glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 
-  // Create a GLFWwindow object of 800 by 800 pixels, naming it "YoutubeOpenGL"
+  // Create a GLFWwindow object of 800 by 800 pixels, naming it "Spinter"
   GLFWwindow* window = glfwCreateWindow(800, 800, "Spinter", NULL, NULL);
   // Error check if the window fails to create
   if (window == NULL)
