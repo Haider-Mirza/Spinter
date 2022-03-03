@@ -10,4 +10,8 @@
 
    ;; Glfw
    "mesa"
-   "glfw"))
+   "glfw"
+
+   ;; Font rendering
+   "freetype"
+   "fontconfig"))

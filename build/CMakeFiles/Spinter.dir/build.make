@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /gnu/store/4y5m9lb8k3qkb1y9m02sw9w9a6hacd16-bash-minimal-5.1.8/bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake
+CMAKE_COMMAND = /gnu/store/lkzss4nh6g0d2vnz9p030nxkw6s8r573-cmake-3.21.4/bin/cmake
 
 # The command to remove a file.
-RM = /gnu/store/1mzpyycpi4xma2iwn4qjh500457r666h-cmake-3.21.4/bin/cmake -E rm -f
+RM = /gnu/store/lkzss4nh6g0d2vnz9p030nxkw6s8r573-cmake-3.21.4/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -73,15 +73,15 @@ CMakeFiles/Spinter.dir/src/main.cpp.o: CMakeFiles/Spinter.dir/flags.make
 CMakeFiles/Spinter.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Spinter.dir/src/main.cpp.o: CMakeFiles/Spinter.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haider/Code/Spinter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Spinter.dir/src/main.cpp.o"
-	/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spinter.dir/src/main.cpp.o -MF CMakeFiles/Spinter.dir/src/main.cpp.o.d -o CMakeFiles/Spinter.dir/src/main.cpp.o -c /home/haider/Code/Spinter/src/main.cpp
+	/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spinter.dir/src/main.cpp.o -MF CMakeFiles/Spinter.dir/src/main.cpp.o.d -o CMakeFiles/Spinter.dir/src/main.cpp.o -c /home/haider/Code/Spinter/src/main.cpp
 
 CMakeFiles/Spinter.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spinter.dir/src/main.cpp.i"
-	/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haider/Code/Spinter/src/main.cpp > CMakeFiles/Spinter.dir/src/main.cpp.i
+	/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haider/Code/Spinter/src/main.cpp > CMakeFiles/Spinter.dir/src/main.cpp.i
 
 CMakeFiles/Spinter.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spinter.dir/src/main.cpp.s"
-	/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haider/Code/Spinter/src/main.cpp -o CMakeFiles/Spinter.dir/src/main.cpp.s
+	/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haider/Code/Spinter/src/main.cpp -o CMakeFiles/Spinter.dir/src/main.cpp.s
 
 # Object files for target Spinter
 Spinter_OBJECTS = \
@@ -92,9 +92,10 @@ Spinter_EXTERNAL_OBJECTS =
 
 Spinter: CMakeFiles/Spinter.dir/src/main.cpp.o
 Spinter: CMakeFiles/Spinter.dir/build.make
-Spinter: /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/libglfw.so.3.3
-Spinter: /gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib/libGL.so
-Spinter: lib/libglad.a
+Spinter: ext/glfw/src/libglfw3.a
+Spinter: ext/glad/libglad.a
+Spinter: /gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/lib/librt.so
+Spinter: /gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/lib/libm.so
 Spinter: CMakeFiles/Spinter.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haider/Code/Spinter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Spinter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Spinter.dir/link.txt --verbose=$(VERBOSE)

@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc")
+set(CMAKE_C_COMPILER "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "11.2.0")
@@ -20,11 +20,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/ar")
-set(CMAKE_C_COMPILER_AR "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc-ar")
-set(CMAKE_RANLIB "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/gcc-ranlib")
-set(CMAKE_LINKER "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/ld")
+set(CMAKE_AR "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/ar")
+set(CMAKE_C_COMPILER_AR "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/gcc-ar")
+set(CMAKE_RANLIB "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/gcc-ranlib")
+set(CMAKE_LINKER "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -74,7 +74,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/include;/home/haider/.guix-profile/include;/run/current-system/profile/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/include;/home/haider/.guix-profile/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/lib;/home/haider/.guix-profile/lib;/run/current-system/profile/lib;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/lib;/home/haider/.guix-profile/lib;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib/gcc/x86_64-unknown-linux-gnu/11.2.0;/gnu/store/sz3yhray6kzgp7d0k4pvxmpnzdpd69rk-gcc-11.2.0-lib/lib;/gnu/store/5h2w4qi9hk1qzzgi1w83220ydslinr4s-glibc-2.33/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

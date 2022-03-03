@@ -39,12 +39,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/gnu/store/lihnp419znski5lv1gykpczp9w0xfg58-profile/bin/objdump")
+  set(CMAKE_OBJDUMP "/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/haider/Code/Spinter/build/lib/cmake_install.cmake")
+  include("/home/haider/Code/Spinter/build/ext/glfw/cmake_install.cmake")
+  include("/home/haider/Code/Spinter/build/ext/glad/cmake_install.cmake")
 
 endif()
 
