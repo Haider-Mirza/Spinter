@@ -1,6 +1,6 @@
 #+title: Spinter
 
-/Manipulation of OpenGL/
+/OpenGL Manipulation/
 
 * How to Hack It
 
