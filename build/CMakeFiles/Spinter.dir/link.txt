@@ -1,1 +1,0 @@
-/gnu/store/rw0905syj97jyb5kyzjawjq6v3k6735z-profile/bin/c++ -rdynamic CMakeFiles/Spinter.dir/src/main.cpp.o -o Spinter   -L/home/haider/Code/Spinter/ext/glfw/src  -L/home/haider/Code/Spinter/ext/glad  -Wl,-rpath,/home/haider/Code/Spinter/ext/glfw/src:/home/haider/Code/Spinter/ext/glad ext/glfw/src/libglfw3.a ext/glad/libglad.a -lpthread -lrt -lm -ldl 
