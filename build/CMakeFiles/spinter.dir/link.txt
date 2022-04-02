@@ -1,0 +1,1 @@
+/gnu/store/fqjsh0876jdgsd8shf0rp67n1ns22qz4-profile/bin/clang++ -rdynamic CMakeFiles/spinter.dir/src/main.cpp.o -o spinter 

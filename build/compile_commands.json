@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/haider/code/spinter/build",
+  "command": "/gnu/store/fqjsh0876jdgsd8shf0rp67n1ns22qz4-profile/bin/clang++    -o CMakeFiles/spinter.dir/src/main.cpp.o -c /home/haider/code/spinter/src/main.cpp",
+  "file": "/home/haider/code/spinter/src/main.cpp"
+}
+]

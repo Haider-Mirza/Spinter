@@ -1,0 +1,3 @@
+/home/haider/code/spinter/build/CMakeFiles/rebuild_cache.dir
+/home/haider/code/spinter/build/CMakeFiles/edit_cache.dir
+/home/haider/code/spinter/build/CMakeFiles/spinter.dir
