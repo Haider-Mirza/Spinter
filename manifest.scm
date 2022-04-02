@@ -3,4 +3,7 @@
    "coreutils"
    "cmake"
    "make"
-   "clang"))
+   "clang"
+
+   "glfw"
+   "glad"))
