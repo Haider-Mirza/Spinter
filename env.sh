@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-guix shell --pure
+guix shell --check --pure
