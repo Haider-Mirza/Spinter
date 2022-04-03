@@ -1,13 +1,15 @@
 (specifications->manifest
- '(;; C++ development
-   "coreutils"
-   "gcc-toolchain"
-   "make"
-   "clang"
-   "pkg-config"
-   "gdb"
-   "cmake"
+ '(;; C++ Development
 
-   ;; Glfw
-   "mesa"
-   "glfw"))
+   ;; CMake 
+   "cmake"
+   "make"
+   "gcc"
+   "gcc-toolchain"
+
+   ;; General Navigation
+   "binutils"
+
+   ;; Dependancies
+   "glfw"
+   ))

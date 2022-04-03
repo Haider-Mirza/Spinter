@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-guix shell --check -m manifest.scm
+guix shell --pure
