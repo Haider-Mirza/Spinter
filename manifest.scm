@@ -11,5 +11,4 @@
    "binutils"
 
    ;; Dependancies
-   "glfw"
-   ))
+   "glfw"))

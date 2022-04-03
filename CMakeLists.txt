@@ -29,12 +29,10 @@ add_subdirectory(ext/glfw)
 add_subdirectory(ext/glad)
 
 target_include_directories(${PROJECT_NAME}
-  PUBLIC ext/glfw/include
-  )
+  PUBLIC ext/glfw/include)
 
 target_link_directories(${PROJECT_NAME}
   PUBLIC ext/glfw/src
-  PUBLIC ext/glad/
- )
+  PUBLIC ext/glad/)
 
 target_link_libraries(${PROJECT_NAME} glfw glad)
