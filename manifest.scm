@@ -1,9 +1,17 @@
 (specifications->manifest
  '(;; C++ development
    "coreutils"
-   "cmake"
+   "gcc-toolchain"
    "make"
    "clang"
+   "pkg-config"
+   "gdb"
+   "cmake"
 
+   ;; Glfw
+   "mesa"
    "glfw"
-   "glad"))
+   
+   ;; Font rendering
+   "freetype"
+   "fontconfig"))
