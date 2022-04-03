@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Options
-echo -e "1) Compile and run project\n2) Build Project\n3) Run Project\n4) Configure Cmake"
+echo -e "1) Compile and run project\n2) Build Project\n3) Run Project\n4) Configure CMake"
 echo -n "Enter Number: "
 read x
 
