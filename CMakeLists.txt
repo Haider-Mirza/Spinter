@@ -4,6 +4,8 @@ project(spinter)
  
 add_executable(${PROJECT_NAME} src/main.cpp)
  
+find_package(Freetype REQUIRED)
+
  # DOWNLOAD ALL THE SUBMODULES
  find_package(Git QUIET)
  if(GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
@@ -29,10 +31,11 @@ add_subdirectory(ext/glfw)
 add_subdirectory(ext/glad)
 
 target_include_directories(${PROJECT_NAME}
-  PUBLIC ext/glfw/include)
+  PUBLIC ext/glfw/include
+  PRIVATE ${FREETYPE_INCLUDE_DIRS})
 
 target_link_directories(${PROJECT_NAME}
   PUBLIC ext/glfw/src
   PUBLIC ext/glad/)
 
-target_link_libraries(${PROJECT_NAME} glfw glad)
+target_link_libraries(${PROJECT_NAME} glfw glad freetype ${freetype_libraries})

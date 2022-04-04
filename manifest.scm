@@ -11,4 +11,8 @@
    "binutils"
 
    ;; Dependancies
-   "glfw"))
+   "glfw"
+
+   ;; Font rendering
+   "freetype"
+   "fontconfig"))
