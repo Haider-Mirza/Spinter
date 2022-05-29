@@ -4,11 +4,16 @@
    ;; CMake 
    "cmake"
    "make"
+   "python"
    "gcc"
    "gcc-toolchain"
 
+   "bear"
+   "git"
+
    ;; General Navigation
    "binutils"
+   "coreutils"
 
    ;; Dependancies
    "glfw"

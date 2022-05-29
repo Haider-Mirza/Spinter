@@ -25,5 +25,7 @@ elif [ $((x)) == 3 ]; then
 
 elif [ $((x)) == 4 ]; then
     echo -e "\n"
-    cmake -DGLFW_BUILD_DOCS=OFF -S . -B build/
+    cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DGLFW_BUILD_DOCS=OFF -S . -B build/
 fi
+
+# Submodule
