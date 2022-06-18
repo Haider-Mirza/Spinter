@@ -8,7 +8,6 @@
    "gcc"
    "gcc-toolchain"
 
-   "bear"
    "git"
 
    ;; General Navigation
